@@ -1,0 +1,52 @@
+#container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+.paddle {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    background-color: #000;
+}
+
+#player1 {
+    left: 20px;
+    top: 250px;
+}
+
+#player2 {
+    right: 20px;
+    top: 250px;
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f00;
+    left: 400px;
+    top: 300px;
+}
+
+.score {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+
+#player1-score {
+    left: 200px;
+    top: 20px;
+}
+
+#player2-score {
+    right: 200px;
+    top: 20px;
+}
